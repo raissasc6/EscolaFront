@@ -46,12 +46,14 @@ export const mainListItems = (
       </ListItemIcon>
       <ListItemText primary="Mentorias" />
     </ListItem>
-    <ListItem button>
-      <ListItemIcon>
-        <LayersIcon />
-      </ListItemIcon>
-      <ListItemText primary="Projetos" />
-    </ListItem>
+    <Link href="/programas" color="inherit">
+      <ListItem button>
+        <ListItemIcon>
+          <LayersIcon />
+        </ListItemIcon>
+        <ListItemText primary="Programas" />
+      </ListItem>
+    </Link>
     <ListItem button>
       <ListItemIcon>
         <SchoolIcon />
@@ -60,5 +62,3 @@ export const mainListItems = (
     </ListItem>
   </div>
 );
-
-

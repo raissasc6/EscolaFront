@@ -9,6 +9,7 @@ import RotasAluno from "../aluno/RotasAluno";
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import RotasMentor from "../mentor/RotasMentor";
+import RotasPrograma from "../programa/RotasPrograma";
 
 const drawerWidth = 240;
 
@@ -107,6 +108,7 @@ export default function Dashboard() {
               <Route path="/" exact component={DashboardComponent}></Route>
               <Route path="/alunos" component={RotasAluno}></Route>
               <Route path="/mentores" component={RotasMentor}></Route>
+              <Route path="/programas" component={RotasPrograma}></Route>
             </Switch>
           </Router>
           <FooterComponent></FooterComponent>

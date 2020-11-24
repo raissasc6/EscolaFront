@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Typography } from "@material-ui/core";
 
-function PaginaComponent(props){
+function FuncionalidadesComponent(props){
 
     return(
        
@@ -23,4 +23,4 @@ function PaginaComponent(props){
 
 }
 
-export default PaginaComponent;
+export default FuncionalidadesComponent;
